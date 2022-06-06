@@ -68,4 +68,4 @@ New chemical and material advancements pushed aircraft performance. The human bo
 
 Combat walkers and other humanoid machines started to catch on, but were unviable due to costs and their inherent weaknesses.
 
-Piloting aids automated most operation processes, making the use of both civilian and military machines more accessible. For the most part, the automation was reliable and meant that clunky button panels could be removed.
+Piloting aids automated most operation processes, making the use of both civilian and military machines more accessible. This technology became very reliable and meant that clunky button panels could be removed.
