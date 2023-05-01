@@ -10,4 +10,4 @@
 
 - For mods with visible objects
   - Enable fog in Rendering.Lighting window
-  - Enable OpenXR and set strip shaders to none (guide for this is missing on SP forums?)
+  - In Preferences, enable OpenXR and set strip shaders to none (guide for this is missing on SP forums?)
