@@ -2,7 +2,7 @@
 
 - Create cockpit equipment
   - Movable section of equipment is only connected to the rest of the aircraft at the Control Base.
-  - Cockpit section has one or more Grips.
+  - Each Control Base has one or more Grips.
 
 - Control Base
   - Select closest preset.
@@ -19,6 +19,6 @@
   - Unused buttons should be disabled on non-standard controls.
   - Add screen space controls in PosedGrip. The following are Vector3:
     - screen[XYZ]\[Position/Rotation]AxisMap: simulate VR inputs by click-dragging along this axis on the screen.
-      - It appears to attempt transforming the part in aircraft local space (not grip or control base space)
+      - It appears to attempt transforming the part in aircraft local space (not Grip or Control Base space)
     - screenAxisSize: distance to drag for min/max inputs
     - screenAxisDeadzone
