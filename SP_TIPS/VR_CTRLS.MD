@@ -12,11 +12,13 @@
     - Rotation Max: maximum rotation multiplied with the scale parameter
   - Each input can be a rotation (for RotationAxis controls) or translation (for PositionAxis controls).
     - The axis is defined as Vector3 and the output is the length projected onto this axis.
+  - Rotation of grip parts is detected in Control Base local space.
 
 - Grips
   - Change triggerPressed (digital input) to trigger (analog input) if required.
   - Unused buttons should be disabled on non-standard controls.
   - Add screen space controls in PosedGrip. The following are Vector3:
-    - screen[XYZ]\[Position/Rotation]AxisMap: simulate VR inputs by click-dragging along this axis on the screen
+    - screen[XYZ]\[Position/Rotation]AxisMap: simulate VR inputs by click-dragging along this axis on the screen.
+      - It appears to attempt transforming the part in aircraft local space (not grip or control base space)
     - screenAxisSize
     - screenAxisDeadzone
