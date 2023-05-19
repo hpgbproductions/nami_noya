@@ -13,7 +13,7 @@ Notice:
 | -100 | DeltaTime | `Time-PreviousTime` | Time between this update and the previous update. |
 | 0 | TimeSinceGearChange | RESET/RUN TIMER | |
 | 0 | GearSelected | (unspecified) | It is possible to add debounce using TimeSinceGearChange. |
-| 0 | GearRatio | TERNARY TREE | List of gear ratios. Include a value putside of TERNARY TREE for final drive. |
+| 0 | GearRatio | TERNARY VALUE LIST | List of gear ratios. Include a multiplier for final drive. |
 | 0 | WheelRpm | (unspecified) | Average RPM of all driven wheels. DO NOT use RPM from engines. |
 | 0 | EngineRpm | `clamp(WheelRpm * GearRatio, MIN, MAX)` | RPM when not in neutral. Used for engine input calculations. |
 | 0 | TargetRpmInNeutral | `lerp(MIN, MAX, PLAYERINPUT_THROTTLE)` | |
