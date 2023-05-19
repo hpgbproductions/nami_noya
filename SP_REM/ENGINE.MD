@@ -5,4 +5,4 @@ Applications:
 - Alpaca
 
 | Priority | Name | Structure | Comments |
-| --- | ;--- | ;--- | ;--- |
+| --- | :--- | :--- | :--- |
