@@ -20,6 +20,6 @@ Notice:
 | 0 | EngineRpm | FIXED INTERVAL PROPORTIONAL CONTROLLER | RPM when in neutral. For sound effects only. Activator is used to check that the vehicle is in neutral gear. |
 | 0 | MaxEngineInput | LINEAR MAP CHAIN | Value when engine throttle is full. Torque curve. |
 | 0 | MinEngineInput | LINEAR MAP CHAIN | Value when engine throttle is zero. Engine braking curve.
-| 0 | FrontEngineInput | (unspecified) | To front axle engine. |
-| 0 | RearEngineInput | (unspecified) | To rear axle engine. |
+| 0 | FrontEngineInput | MULTIPLY( `GearRatio`, `lerp(MinEngineInput,MaxEngineInput,InputEngineThrottle)`, OTHER EFFECTS) | To front axle engine. Effects include smoothing and torque distribution. |
+| 0 | RearEngineInput | MULTIPLY( `GearRatio`, `lerp(MinEngineInput,MaxEngineInput,InputEngineThrottle)`, OTHER EFFECTS) | To rear axle engine. |
 | 100 | PreviousTime | `Time` | Store the update time for the calculation of DeltaTime in the next update. |
