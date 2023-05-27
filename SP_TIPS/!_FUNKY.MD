@@ -45,6 +45,14 @@ When `RESET` is FALSE, counts at the rate of `SPEED`. When `RESET` is TRUE, move
 - `float SPEED`: The rate of counting, same as the argument in `sum(x)`. Use 1 for timers.
 - `float CONST_POSITIVE_LARGE`: Large number (try 999999).
 
+## Controls
+
+### Flight Stick Direction
+
+`atan2(Roll, Pitch)`
+
+Corresponds to a target angle of slip on VTOL applications.
+
 ## Combat System
 
 ### Target GS
