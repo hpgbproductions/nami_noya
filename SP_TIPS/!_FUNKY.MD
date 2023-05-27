@@ -45,14 +45,24 @@ When `RESET` is FALSE, counts at the rate of `SPEED`. When `RESET` is TRUE, move
 - `float SPEED`: The rate of counting, same as the argument in `sum(x)`. Use 1 for timers.
 - `float CONST_POSITIVE_LARGE`: Large number (try 999999).
 
-## Vehicles
-
-Funky Trees for all types of vehicles.
-
-### Rotational G-Force Component (m/s<sup>2</sup>)
-
-
-
 ## Combat System
 
 ## Scientific
+
+Funky Trees based on common scientific equations.
+
+### Centripetal Acceleration (m/s<sup>2</sup>)
+
+`LOCAL_ROTATION_RATE_RADIANS * GS`
+
+Determines the G-force from rotation on the main cockpit block around the selected axis of rotation. The G-force components from gravity and acceleration are NOT considered.
+
+- `float LOCAL_ROTATION_RATE`: Use `PitchRate`, `YawRate`, or `RollRate`.
+
+### Kinetic Power (W)
+
+`0.5 * MASS_KG * GS * GS`
+
+Gets the rate of change of kinetic energy. Remove drag on your aircraft first if you want to find your engine power.
+
+- `float MASS_KG`
