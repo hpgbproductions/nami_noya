@@ -57,9 +57,9 @@ When `RESET` is FALSE, counts at the rate of `SPEED`. When `RESET` is TRUE, move
 
 ### Target World Coordinates
 
-`Longitude + TargetDistance * sin(TargetHeading)`
-`Altitude + TargetDistance * sin(TargetElevation)`
-`Latitude + TargetDistance * cos(TargetHeading)`
+- `Longitude + TargetDistance * sin(TargetHeading)`
+- `Altitude + TargetDistance * sin(TargetElevation)`
+- `Latitude + TargetDistance * cos(TargetHeading)`
 
 ## Scientific
 
