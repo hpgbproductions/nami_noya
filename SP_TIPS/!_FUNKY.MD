@@ -1,6 +1,6 @@
 # Funky Forest
 
-A list of Funky Trees that I find useful and often use. Notes:
+A list of Funky Trees that I find useful. Notes:
 
 - Replace variable names in ALL CAPS to your own values or variables.
 - List of variables may not be in the same order as the Funky Trees. The list order is chosen for readability.
@@ -46,6 +46,20 @@ When `RESET` is FALSE, counts at the rate of `SPEED`. When `RESET` is TRUE, move
 - `float CONST_POSITIVE_LARGE`: Large number (try 999999).
 
 ## Combat System
+
+### Target GS
+
+`sqrt(pow(rate(RELATIVE_TARGET_X),2) + pow(rate(RELATIVE_TARGET_Y),2) + pow(rate(RELATIVE_TARGET_Z),2))`
+
+- `Setter RELATIVE_TARGET_X`: `TargetDistance * sin(TargetHeading)`
+- `Setter RELATIVE_TARGET_Y`: `TargetDistance * sin(TargetElevation)`
+- `Setter RELATIVE_TARGET_Z`: `TargetDistance * cos(TargetHeading)`
+
+### Target World Coordinates
+
+`Longitude + TargetDistance * sin(TargetHeading)`
+`Altitude + TargetDistance * sin(TargetElevation)`
+`Latitude + TargetDistance * cos(TargetHeading)`
 
 ## Scientific
 
