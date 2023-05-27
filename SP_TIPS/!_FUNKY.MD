@@ -6,7 +6,7 @@ A list of Funky Trees that I find useful and often use. Replace variable names i
 
 Funky Trees with general applications.
 
-### Linear Value Map (Clamped)
+#### Linear Value Map (Clamped)
 
 `lerp(TO_LOW, TO_HIGH, inverselerp(FROM_LOW, FROM_HIGH, VAL))`
 
@@ -18,7 +18,7 @@ Maps a value `VAL` in the range `FROM_LOW..FROM_HIGH` to the range `TO_LOW..TO_H
 - `float FROM_HIGH`: Input range, upper bounds.
 - `float VAL`: Input value.
 
-### Linear Value Map (Unclamped)
+#### Linear Value Map (Unclamped)
 
 `TO_LOW + (VAL - FROM_LOW) / (FROM_HIGH - FROM_LOW) * (TO_HIGH - TO_LOW)`
 
