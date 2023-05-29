@@ -16,7 +16,7 @@ Notice:
 | 0 | GearRatio | TERNARY VALUE LIST | List of gear ratios. Include a multiplier for final drive. |
 | 0 | WheelRpm | (unspecified) | Average RPM of all driven wheels. Remember that wheel RPM sign is different on each side of the car. DO NOT use RPM readouts from engines as they are unsigned. |
 | 0 | EngineRpm | `clamp(WheelRpm * GearRatio, MIN, MAX)` | RPM when not in neutral. Used for engine input calculations. |
-| 0 | TargetRpmInNeutral | `lerp(MIN, MAX, PLAYERINPUT_THROTTLE)` | |
+| 0 | TargetRpmInNeutral | `lerp(MIN, MAX, PLAYERINPUT_THROTTLE)` | Neutral RPM controller can be improved. |
 | 0 | EngineRpm | FIXED INTERVAL PROPORTIONAL CONTROLLER | RPM when in neutral. For sound effects only. Activator is used to check that the vehicle is in neutral gear. |
 | 0 | MaxEngineInput | LINEAR MAP CHAIN | Value when engine throttle is full. Torque curve. |
 | 0 | MinEngineInput | LINEAR MAP CHAIN | Value when engine throttle is zero. Engine braking curve.
