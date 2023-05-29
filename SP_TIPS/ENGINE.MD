@@ -12,8 +12,8 @@ Notice:
 | --- | :--- | :--- | :--- |
 | -100 | DeltaTime | `Time-PreviousTime` | Time between this update and the previous update. |
 | 0 | TimeSinceGearChange | TIMER WITH RESET FUNCTION | Timer is reset when a gear shift is commanded. |
-| 0 | GearSelected | (unspecified) | It is possible to add debounce using TimeSinceGearChange. |
-| 0 | GearRatio | TERNARY VALUE LIST | List of gear ratios. Include a multiplier for final drive. |
+| 0 | GearSelected | (unspecified) | Zero is neutral, positive numbers are forward gears, and negative numbers are reverse gears. It is possible to add debounce using TimeSinceGearChange. |
+| 0 | GearRatio | TERNARY VALUE LIST | List of gear ratios. Reverse gear ratios are negative. Neutral gear ratio is defined as zero as gear ratio multiplies with engine input. Include a multiplier for final drive. |
 | 0 | WheelRpm | AVERAGE OF VALUES | Average RPM of all driven wheels. Remember that wheel RPM sign is different on each side of the car. DO NOT use RPM readouts from engines as they are unsigned. |
 | 0 | EngineRpm | `clamp(WheelRpm * GearRatio, MIN, MAX)` | RPM when not in neutral. Used for engine input calculations. |
 | 0 | TargetRpmInNeutral | `lerp(MIN, MAX, PLAYERINPUT_THROTTLE)` | Neutral RPM controller can be improved. |
