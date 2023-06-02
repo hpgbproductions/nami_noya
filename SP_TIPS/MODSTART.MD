@@ -15,7 +15,6 @@
 ### Troubleshooting
 
 **Prefab does not exist when saving GameObject**
-
 - Check for missing scripts or assets in the GameObjects. They may have been deleted accidentally.
 
 **Failed to load a mod, with red wall of text**
