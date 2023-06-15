@@ -17,8 +17,8 @@
 - Grips
   - Change triggerPressed (digital input) to trigger (analog input) if required.
   - Unused buttons should be disabled on non-standard controls.
-  - Add screen space controls in PosedGrip. The following are Vector3:
-    - screen[XYZ]\[Position/Rotation]AxisMap: simulate VR inputs by click-dragging along this axis on the screen.
+  - Add screen space controls in PosedGrip:
+    - Vector3 screen[XYZ]\[Position/Rotation]AxisMap: simulate VR inputs by click-dragging along this axis on the screen.
       - It appears to attempt transforming the part in aircraft local space (not Grip or Control Base space)
-    - screenAxisSize: distance to drag for min/max inputs
-    - screenAxisDeadzone
+    - Vector3 screenAxisSize: screen space distance to drag for min/max inputs.
+    - Vector3 screenAxisDeadzone: screen space distance to drag before any input applies on the aircraft.
