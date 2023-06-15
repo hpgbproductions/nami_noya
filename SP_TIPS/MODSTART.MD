@@ -9,7 +9,7 @@
   - Add Service Provider using SimplePlanes tab on top menu.
 
 - For mods with visible objects
-  - Enable fog in Rendering.Lighting window
+  - Enable fog in top bar > Rendering > Lighting window
   - In Preferences, enable OpenXR and set strip shaders to none (guide for this is missing on SP forums?)
 
 ### Troubleshooting
