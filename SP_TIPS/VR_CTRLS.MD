@@ -3,6 +3,7 @@
 - Create cockpit equipment
   - Movable section of equipment is only connected to the rest of the aircraft at the Control Base.
   - Each Control Base has one or more Grips.
+  - Grip X and Z scale must be 1.
 
 - Control Base
   - Select closest preset.
