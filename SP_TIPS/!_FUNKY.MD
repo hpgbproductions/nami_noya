@@ -75,9 +75,9 @@ Funky Trees based on common scientific equations.
 
 ### Centripetal Acceleration (m/s<sup>2</sup>)
 
-`LOCAL_ROTATION_RATE_RADIANS * GS`
+`LOCAL_ROTATION_RATE * GS * pi / 180`
 
-Determines the G-force from rotation on the main cockpit block around the selected axis of rotation. The G-force components from gravity and acceleration are NOT considered.
+Determines the G-force from rotation on the main cockpit block around the selected axis of rotation. The G-force components from gravity and acceleration are NOT considered. Use a further division of 9.81 to convert from m/s<sup>2</sup> to Gs.
 
 - `float LOCAL_ROTATION_RATE`: Use `PitchRate`, `YawRate`, or `RollRate`.
 
