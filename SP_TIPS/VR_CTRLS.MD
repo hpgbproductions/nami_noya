@@ -21,6 +21,5 @@
   - Add screen space controls in PosedGrip:
     - Vector3 screen[XYZ]\[Position/Rotation]AxisMap: simulate VR inputs by click-dragging along this axis on the screen.
       - On Control Base equipment, it attempts to transform the part in aircraft local space (not Grip or Control Base space).
-      - On pre-built equipment, it transforms the moving section of the part in the local space of the entire part.
     - Vector3 screenAxisSize: screen space distance to drag for min/max inputs.
     - Vector3 screenAxisDeadzone: screen space distance to drag before any input applies on the aircraft.
