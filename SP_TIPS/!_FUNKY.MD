@@ -4,6 +4,7 @@ A list of Funky Trees that I find useful. Notes:
 
 - Replace variable names in ALL CAPS to your own values or variables.
 - List of variables may not be in the same order as the Funky Trees. The list order is chosen for readability.
+- Expected data types are provided. Some codes require preceding variable setters.
 
 ## Common
 
@@ -23,17 +24,30 @@ Maps a value `VAL` in the range `FROM_LOW..FROM_HIGH` to the range `TO_LOW..TO_H
 
 ### Linear Value Map (Unclamped)
 
-`TO_LOW + (VAL - FROM_LOW) / (FROM_HIGH - FROM_LOW) * (TO_HIGH - TO_LOW)`
+`TO_LOW + (VALUE - FROM_LOW) / (FROM_HIGH - FROM_LOW) * (TO_HIGH - TO_LOW)`
 
-Maps a value `VAL` in the range `FROM_LOW..FROM_HIGH` to the range `TO_LOW..TO_HIGH`. The output is unclamped. This is equivalent to the Arduino code `map(VAL, FROM_LOW, FROM_HIGH, TO_LOW, TO_HIGH)`.
+Maps a value `VALUE` in the range `FROM_LOW..FROM_HIGH` to the range `TO_LOW..TO_HIGH`. The output is unclamped. This is equivalent to the Arduino code `map(VALUE, FROM_LOW, FROM_HIGH, TO_LOW, TO_HIGH)`.
 
-- `float VAL`: Input value.
+- `float VALUE`: Input value.
 - `float FROM_LOW`: Input range, lower bounds.
 - `float FROM_HIGH`: Input range, upper bounds.
 - `float TO_LOW`: Output range, lower bounds.
 - `float TO_HIGH`: Output range, upper bounds.
 
-### Sum() Replacement / Timer with Reset
+### Smooth with Different Attack/Decay
+
+[ SETTER ONLY ] `smooth(VALUE, SELF<VALUE ? ATTACK : DECAY)`
+
+SETTER ONLY: This can only be used as a variable. It cannot be used directly in an Input Controller.
+
+The smoothed value increases and decreases at different rates, known as attack and decay rates respectively.
+
+- `float VALUE`: Input value to be smoothed out.
+- `float SELF`: Same as the variable setter name.
+- `float ATTACK`: Maximum rate of increase.
+- `float DECAY`: Maximum rate of decrease.
+
+### Sum Replacement / Timer with Reset
 
 `smooth(!RESET & sum(1)>0.1 ? MAX_VALUE : RESET_VALUE, !RESET ? SPEED : CONST_POSITIVE_LARGE)`
 
