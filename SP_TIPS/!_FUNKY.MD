@@ -38,7 +38,7 @@ Maps a value `VALUE` in the range `FROM_LOW..FROM_HIGH` to the range `TO_LOW..TO
 
 `smooth(VALUE, SELF<VALUE ? ATTACK : DECAY)`
 
-**[ SETTER ONLY ]** This can only be used as a variable. It cannot be used directly in an Input Controller.
+**[ SETTER ONLY ]** This can only be used as a variable setter. It cannot be used directly in an Input Controller.
 
 The smoothed value increases and decreases at different rates, known as attack and decay rates respectively.
 
