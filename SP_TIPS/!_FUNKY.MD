@@ -49,7 +49,7 @@ The smoothed value increases and decreases at different rates, known as attack a
 
 ### Sum Replacement / Timer with Reset
 
-`smooth(!RESET & sum(1)>0.1 ? MAX_VALUE : RESET_VALUE, !RESET ? SPEED : CONST_POSITIVE_LARGE)`
+`smooth(!RESET & sum(1)>0.1 ? MAX_VALUE : RESET_VALUE, !RESET & sum(1)>0.1 ? SPEED : CONST_POSITIVE_LARGE)`
 
 When `RESET` is FALSE, counts at the rate of `SPEED`. When `RESET` is TRUE, moves the value quickly towards `RESET_VALUE`.
 
