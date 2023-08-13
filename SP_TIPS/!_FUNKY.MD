@@ -49,7 +49,7 @@ The smoothed value increases and decreases at different rates, known as attack a
 
 ### Sum Replacement with Clamp
 
-`smooth(sum(1)<0.1 ? START_VALUE : (INPUT>0 ? MAX_VALUE : MIN_VALUE), abs(INPUT))`
+`smooth(sum(1)<0.1 ? START_VALUE : (INPUT<0 ? MIN_VALUE : MAX_VALUE), abs(INPUT))`
 
 A simple alternative to the sum function which allows the addition of clamping limits. It does not suffer from the unresponsiveness near clamping limits of `clamp` and `sum`.
 
