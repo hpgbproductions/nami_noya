@@ -47,11 +47,24 @@ The smoothed value increases and decreases at different rates, known as attack a
 - `float ATTACK`: Maximum rate of increase.
 - `float DECAY`: Maximum rate of decrease.
 
+### Sum Replacement with Clamp
+
+`smooth(sum(1)<0.1 ? START_VALUE : (INPUT>0 ? MAX_VALUE : MIN_VALUE), abs(INPUT))`
+
+A simple alternative to the sum function to add clamping. It does not suffer from the unresponsiveness near clamping limits of `clamp` and `sum`.
+
+- `float START_VALUE`: Value to initialize the function with, usually 0.
+- `float MIN_VALUE`: Minimum output value.
+- `float MAX_VALUE`: Maximum output value.
+- `float INPUT`: Input that corresponds to the argument of `sum(...)`.
+
 ### Sum Replacement / Timer with Reset
 
 `smooth(!RESET & sum(1)>0.1 ? MAX_VALUE : RESET_VALUE, !RESET & sum(1)>0.1 ? SPEED : CONST_POSITIVE_LARGE)`
 
-When `RESET` is FALSE, counts at the rate of `SPEED`. When `RESET` is TRUE, moves the value quickly towards `RESET_VALUE`.
+When `RESET` is FALSE, counts towards MAX_VALUE the rate of `SPEED`. When `RESET` is TRUE, moves the value quickly towards `RESET_VALUE`.
+
+The `sum(1)>0.1` component forces the ternary statement to start FALSE, so the starting value is always `RESET_VALUE`.
 
 - `bool RESET`: Input to reset the output.
 - `float RESET_VALUE`: The function will return to this value when reset.
