@@ -10,6 +10,15 @@ A list of Funky Trees that I find useful. Notes:
 
 Funky Trees with general applications.
 
+### Animation / Delay Timer
+
+`smooth(ACTIVE ? 0 : PERIOD, 1)`
+
+General purpose smooth-based timer for animations. When `ACTIVE` is TRUE, counts towards `PERIOD`. Otherwise, counts towards zero. This shows the key principles of timers based on the smooth function. This timer can be used as the field of `VAL` in the Linear Value Map.
+
+- `bool ACTIVE`: Boolean input value.
+- `float PERIOD`: Total duration of the animation.
+
 ### Linear Value Map (Clamped)
 
 `lerp(TO_LOW, TO_HIGH, inverselerp(FROM_LOW, FROM_HIGH, VAL))`
