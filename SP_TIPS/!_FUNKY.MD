@@ -34,6 +34,15 @@ Maps a value `VALUE` in the range `FROM_LOW..FROM_HIGH` to the range `TO_LOW..TO
 - `float TO_LOW`: Output range, lower bounds.
 - `float TO_HIGH`: Output range, upper bounds.
 
+### Simple One-Way Activation Delay
+
+`sum(sum(ACTIVE?1:0)>0 ? 1 : 0) > DELAY`
+
+A very basic solution to activate a part `DELAY` seconds after `ACTIVE` is TRUE. The inner `sum` function and comparison prevent the cancellation of the action.
+
+- `bool ACTIVE`: Boolean input value.
+- `float DELAY`: Delay in seconds.
+
 ### Smooth with Different Attack/Decay
 
 `smooth(VALUE, SELF<VALUE ? ATTACK : DECAY)`
