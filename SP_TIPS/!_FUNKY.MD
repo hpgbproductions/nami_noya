@@ -34,7 +34,7 @@ Maps a value `VALUE` in the range `FROM_LOW..FROM_HIGH` to the range `TO_LOW..TO
 - `float TO_LOW`: Output range, lower bounds.
 - `float TO_HIGH`: Output range, upper bounds.
 
-### Simple One-Way Activation Delay
+### One-Way Activation Delay
 
 `sum(sum(ACTIVE?1:0)>0 ? 1 : 0) > DELAY`
 
