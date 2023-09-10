@@ -14,18 +14,18 @@ Funky Trees with general applications.
 
 `smooth(ACTIVE ? 0 : PERIOD, 1)`
 
-General purpose smooth-based timer for animations. When `ACTIVE` is TRUE, counts towards `PERIOD`. Otherwise, counts towards zero. This shows the key principles of timers based on the smooth function. This timer can be used as the field of `VAL` in the Linear Value Map.
+General purpose smooth-based timer for animations. When `ACTIVE` is TRUE, counts towards `PERIOD`. Otherwise, counts towards zero. This shows the key principles of timers based on the smooth function. This timer can be used as the field of `VALUE` in the Linear Value Map.
 
 - `bool ACTIVE`: Boolean input value.
 - `float PERIOD`: Total duration of the animation.
 
 ### Linear Value Map (Clamped)
 
-`lerp(TO_LOW, TO_HIGH, inverselerp(FROM_LOW, FROM_HIGH, VAL))`
+`lerp(TO_LOW, TO_HIGH, inverselerp(FROM_LOW, FROM_HIGH, VALUE))`
 
-Maps a value `VAL` in the range `FROM_LOW..FROM_HIGH` to the range `TO_LOW..TO_HIGH`. The output is clamped between `TO_LOW` and `TO_HIGH`. This is equivalent to the Arduino code `constrain(map(VAL, FROM_LOW, FROM_HIGH, TO_LOW, TO_HIGH), TO_LOW, TO_HIGH)`.
+Maps a value `VALUE` in the range `FROM_LOW..FROM_HIGH` to the range `TO_LOW..TO_HIGH`. The output is clamped between `TO_LOW` and `TO_HIGH`. This is equivalent to the Arduino code `constrain(map(VALUE, FROM_LOW, FROM_HIGH, TO_LOW, TO_HIGH), TO_LOW, TO_HIGH)`.
 
-- `float VAL`: Input value.
+- `float VALUE`: Input value.
 - `float FROM_LOW`: Input range, lower bounds.
 - `float FROM_HIGH`: Input range, upper bounds.
 - `float TO_LOW`: Output range, lower bounds. Minimum output value.
