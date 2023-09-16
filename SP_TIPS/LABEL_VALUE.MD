@@ -23,7 +23,7 @@ The following standard format specifiers **do not** work in SimplePlanes:
 - Decimal (D)
 - Hexadecimal (X)
 
-However, the decimal format can be defined as a custom format by writing the desired number of zeroes. For example, the custom format `000` is equivalent to `D3`.
+However, the decimal format can be defined as a custom format by writing the desired number of zeroes. For example, the custom format `000` can be used in place of the standard format `D3`.
 
 It is also possible to insert literal characters into custom numeric format strings. Rich text formatting defined inside the format string will work as normal. Such formatting can be used to create different styles for the value and its units.
 
