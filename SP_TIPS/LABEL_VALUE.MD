@@ -29,7 +29,7 @@ It is also possible to insert literal characters into custom numeric format stri
 
 ## Label Units
 
-By defining a unit for the label, the value in the label can automatically be converted from the units used internally by the game. The unit can be chosen from one of several categories, and will be converted into the corresponding unit in the player's chosen unit system.
+By defining a unit for the label, the value in the label can automatically be converted from the units used internally by the game. The unit can be chosen from one of several categories, and will be converted into the corresponding unit in the player's chosen unit system. The abbreviation of the unit will be inserted directly after the number with no separating spaces.
 
 The following table lists the values allowed on the left, and the units that are available. The names of the units in the imperial, metric, and nautical systems are written as they are inserted in the labels. This data is available in `Settings.xml`, which is found in the SimplePlanes persistent data directory.
 
@@ -44,3 +44,17 @@ The following table lists the values allowed on the left, and the units that are
 | Volume | L (liters) | gal | L | gal |
 | Area | m^2 | ft^2 | m^2 | ft^2 |
 | WingLoading | kg/m^2 | lbs/ft^2 | kg/m^2 | lbs/ft^2 |
+
+## Examples
+
+### Simple Heading Display
+
+`{floor(repeat(Heading,360)):000}`
+
+Displays heading as a three-digit integer from 000 to 359.
+
+### Wasp Altitude Display
+
+`<size=70%>ALT<size=100%><mspace=.5em><br><smallcaps>{Altitude;000000'<size=60%></mspace>';ShortDistance}`
+
+The label displays altitude as a six-digit integer, and the units are from meters to feet if the player has selected the imperial or nautical unit systems. In addition, the text within the single quotes `'` are treated as literal characters that are inserted between the number and its unit.
