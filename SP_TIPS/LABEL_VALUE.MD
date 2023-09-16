@@ -1,6 +1,6 @@
 # Label Value Substitution Format
 
-This page discusses my findings on the curly brace format used to display results of Funky Trees in labels, based on a conversation among members of Funky Trees Lab. Undocumented label format specifiers were found in the labels on the main displays on the Wasp, and this article aims to explain the workings of this format.
+This page discusses my findings on the curly brace format used to display results of Funky Trees in labels. These findings are based on a conversation of findings among members of Funky Trees Lab. Undocumented label format specifiers were found in the labels on the main displays on the Wasp, and this article aims to explain the workings of this format.
 
 Funky Trees value substitution terms can follow the form `{VALUE;FORMAT;UNITS}`, where:
 
