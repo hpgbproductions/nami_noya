@@ -29,18 +29,18 @@ It is also possible to insert literal characters into custom numeric format stri
 
 ## Label Units
 
-By defining a unit for the label, the value in the label can automatically be converted from SI units. The unit can be chosen from one of several categories, and will be converted into the corresponding unit in the player's chosen unit system.
+By defining a unit for the label, the value in the label can automatically be converted from the units used internally by the game. The unit can be chosen from one of several categories, and will be converted into the corresponding unit in the player's chosen unit system.
 
 The following table lists the values allowed on the left, and the units that are available. The names of the units in the imperial, metric, and nautical systems are written as they are inserted in the labels. This data is available in `Settings.xml`, which is found in the SimplePlanes persistent data directory.
 
-| Label | SI units | Imperial | Metric | Nautical |
+| Label | Game | Imperial | Metric | Nautical |
 | --- | --- | --- | --- | --- |
 | LongDistance | m (meters) | mi | km | nm |
 | ShortDistance | m | ft | m | ft |
 | TinyDistance | m | in | mm | in |
 | Speed | m/s | mph | km/h | kts |
 | Mass | kg | lbs | kg | lbs |
-| Force | N (Newtons) | lbf | N | lbf |
-| Volume | L (Liters) | gal | L | gal |
+| Force | N (newtons) | lbf | N | lbf |
+| Volume | L (liters) | gal | L | gal |
 | Area | m^2 | ft^2 | m^2 | ft^2 |
 | WingLoading | kg/m^2 | lbs/ft^2 | kg/m^2 | lbs/ft^2 |
