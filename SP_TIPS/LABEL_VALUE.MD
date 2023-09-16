@@ -31,11 +31,11 @@ Lastly, to display only the associated unit without the numeric value or any oth
 
 ## Label Units
 
-By defining a unit for the label, the value in the label can automatically be converted from the units used internally by the game. The unit can be chosen from one of several categories, and will be converted into the corresponding unit in the player's chosen unit system. The abbreviation of the unit will be inserted directly after the number with no separating spaces.
+By defining a unit type for the label, the value in the label can automatically be converted from the units used internally by the game. The unit can be chosen from one of several categories, and will be converted into the corresponding unit in the player's chosen unit system. The abbreviation of the unit will be inserted directly after the number with no separating spaces.
 
 The following table lists the values allowed on the left, and the units that are available. The names of the units in the imperial, metric, and nautical systems are written as they are inserted in the labels. This data is available in `Settings.xml`, which is found in the SimplePlanes persistent data directory.
 
-| Label | Game | Imperial | Metric | Nautical |
+| Label Unit Type | Game Units | Imperial | Metric | Nautical |
 | --- | --- | --- | --- | --- |
 | LongDistance | m (meters) | mi | km | nm |
 | ShortDistance | m | ft | m | ft |
@@ -59,4 +59,4 @@ Displays heading as a three-digit integer from 000 to 359.
 
 `<size=70%>ALT<size=100%><mspace=.5em><br><smallcaps>{Altitude;000000'<size=60%></mspace>';ShortDistance}`
 
-The label displays altitude as a six-digit integer, and the units are from meters to feet if the player has selected the imperial or nautical unit systems. In addition, the text within the single quotes `'` are treated as literal characters that are inserted between the number and its unit.
+The label displays altitude as a six-digit integer, and the units are converted from meters to feet if the player has selected the imperial or nautical unit systems. In addition, the text within the single quotes `'` are treated as literal characters that are inserted between the number and its unit.
