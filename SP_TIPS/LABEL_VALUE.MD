@@ -51,7 +51,7 @@ The following table lists the values allowed on the left, and the units that are
 
 ### Simple Heading Display
 
-`{floor(repeat(Heading,360)):000}`
+`{floor(repeat(Heading,360));000}`
 
 Displays heading as a three-digit integer from 000 to 359.
 
