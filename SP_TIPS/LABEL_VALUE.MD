@@ -49,6 +49,8 @@ The following table lists the values allowed on the left, and the units that are
 | Area | m^2 | ft^2 | m^2 | ft^2 |
 | WingLoading | kg/m^2 | lbs/ft^2 | kg/m^2 | lbs/ft^2 |
 
+As values from Funky Trees are converted to the unit system selected by the player, it removes the need to multiply by a conversion factor. However, the builder must be careful of any formatting issues that can be caused by different units. The builder must also consider if the use of certain units is appropriate for the theme of the aircraft.
+
 ## Examples
 
 ### Simple Heading Display
