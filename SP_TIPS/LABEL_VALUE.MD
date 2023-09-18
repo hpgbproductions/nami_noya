@@ -1,14 +1,16 @@
 # Label Value Substitution Format
 
-This page discusses my findings on the curly brace format used to display results of Funky Trees in labels. My research is based on a conversation among members of Funky Trees Lab, where undocumented label format specifiers were found in labels on the main displays on the Wasp. This article aims to explain the workings of this format.
+This page discusses my findings on the curly brace format used to display results of Funky Trees in labels. My research is based on the discussion of undocumented label features on the main displays on the Wasp. This article aims to explain the workings of this format.
 
 Funky Trees value substitution terms can follow the form `{VALUE;FORMAT;UNITS}`, where:
 
 - `VALUE` is the Funky Trees, same as the kind used in variables and Input Controllers,
-- `FORMAT` is a format specifier, and
+- `FORMAT` is a format specifier for the numeric value, and
 - `UNITS` converts the displayed value by a game-defined factor and appends the unit to the numeric value.
 
-As the terms are used one after the other, using any term requires using all previous terms. It is only possible to specify a unit conversion if the format is specified.
+The `FORMAT` and `UNITS` terms can only be applied to Funky Trees with numeric results. Boolean results will be converted into the numeric values -1 or 1 before any unit conversions, if applicable. String results will not work at all.
+
+As the terms are used one after the other, using any term requires defining all previous terms. It is only possible to specify a unit conversion if the format is specified.
 
 ## Label Format
 
@@ -25,13 +27,13 @@ The following standard format specifiers **do not** work in SimplePlanes:
 
 However, the decimal format can be defined as a custom format by writing the desired number of zeroes. For example, the custom format `000` can be used in place of the standard format `D3`.
 
-It is also possible to insert literal characters into custom numeric format strings. Rich text formatting defined inside the format string will work as normal. Such formatting can be used to create different styles for the value and its units.
+It is also possible to insert literal characters into custom numeric format strings. Rich text formatting defined inside the format string will work as normal. Such formatting can be used to create different styles for the value and its units, or to hide the units.
 
 Lastly, to display only the associated unit without the numeric value or any other characters, the format `'`, `''`, `"`, or `""` can be used.
 
 ## Label Units
 
-By defining a unit type for the label, the value in the label can automatically be converted from the units used internally by the game. The unit can be chosen from one of several categories, and will be converted into the corresponding unit in the player's chosen unit system. The abbreviation of the unit will be inserted directly after the number with no separating spaces.
+By defining a unit type for the label, the value in the label can automatically be converted from the units used internally by the game. The unit can be chosen from one of several categories, and will be converted from game units into the corresponding unit in the player's chosen unit system. The abbreviation of the unit will be inserted directly after the number with no separating spaces.
 
 The following table lists the values allowed on the left, and the units that are available. The names of the units in the imperial, metric, and nautical systems are written as they are inserted in the labels. This data is available in `Settings.xml`, which is found in the SimplePlanes persistent data directory.
 
