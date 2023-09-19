@@ -17,7 +17,7 @@ As the terms are used one after the other, using any term requires defining all 
 The format specifier is defined in the System.NumberFormatter class, likely [this implementation](https://github.com/mono/mono/blob/main/mcs/class/corlib/System/NumberFormatter.cs) in Mono. Two styles of formats are allowed:
 
 - [Standard numeric format strings](https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
-- [Custom numeric format springs](https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings)
+- [Custom numeric format strings](https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings)
 
 The following standard format specifiers **do not** work in SimplePlanes:
 
