@@ -20,3 +20,5 @@
   - Go to the log and find the message that allows you to double-click it to fix the issues. Click on the "Fix" button to fix the error. While this changes the target platform from "PC, Mac and Linux" to only "PC", there have not been any negative effects reported by Mac users.
 - **Failed to load a mod, with red wall of text**
   - Check scripting backend is Mono and .NET API compatibility level is 4.x.
+- **Stuck on loading screen**
+  - Check log for SerializationException. This type of exception can happen when the list of public or serialized private fields and properties is changed without saving the GameObjects.
