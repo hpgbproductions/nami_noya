@@ -1,4 +1,4 @@
-Retrieved from NET\HAMEKA\HEALTH\EDUCATION\ARTIFICIAL\_HUMAN with arguments LANG=EN
+Modified from `NET:HAMEKA\HEALTH\EDUCATION\DOLL.NT`
 
 # History of HAMEKA's Artificial Humans
 
