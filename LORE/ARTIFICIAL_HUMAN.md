@@ -1,4 +1,4 @@
-Modified from `NET:HAMEKA\HEALTH\EDUCATION\DOLL.NT`
+Modified from `NET:HAMEKA\HEALTH\EDUCATION\DOLL.NT` (retrieved March 8, 2122)
 
 # History of HAMEKA's Artificial Humans
 
