@@ -25,9 +25,10 @@ As AI technology became more widely accepted in the following decades, biocomput
 
 AFOS (Angelframe Operating System, originally stylized as AfOS) is HAMEKA's framework for artificial intelligence (AI). It was released in 2058 with the goal of improving the behavior of drones in competitive combat. This development era meant that AFOS was designed for both semiconductor-based and biological computers - a unique feature, that at least in the beginning, led to its adoption not just by billion-dollar arms conglomerates seeking the potential brought about by biocomputing, but by smaller businesses competing in regional levels of combat sports as well. However, AFOS would never dominate the defense AI market outside of these formative years, as AFOS only ran on HAMEKA AI computers, and HAMEKA only sold their most powerful AI hardware and software to corporations that had formed the closest relationships.
 
-## First Generation (2058-2067)
+## First Generation
 
-Applications of AFOS 1 were limited to simpler autonomous vehicles like drones and mobile artillery. It can be operated remotely, or in a fully autonomous fashion.
+Due to limitations in the number of supported neurons and calculation speeds, applications of AFOS 1 were often restricted to static defenses and less mobile platforms like drones and mobile artillery. Equipment controlled by AFOS 1 can receive commands remotely, or in a fully autonomous fashion. Despite data-link functionality being present, limited computational abilities meant that the ability to perform synchronized actions was also limited.
 
 ## Second Generation
 
+AFOS 2 was officially released in 2065. Improvements in computational power and networking abilities meant that AFOS 2 was able to match the performance of manned crews when operating most surface vehicles. In addition, the release of AFOS 2 coincided with the mass adoption of combat droids. AFOS 2 equipment was capable of mimicking human performance during vehicular combat, but was found to be lacking in many areas associated with human intelligence, like risk management and spatial awareness. Weakness of AFOS 2 were circumvented by operating in open areas whenever possible, and the main strategy of using and fighting against AFOS 2 was to use large swarms of cheaply-made machines to overwhelm the enemy team.
