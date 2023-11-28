@@ -18,3 +18,16 @@ This would change in the summer of 2055, when the first true biocomputer, the Ma
 ## Applications of Biocomputing
 
 As AI technology became more widely accepted in the following decades, biocomputing would find its niche as a more humanlike alternative for inorganic AI solutions. Multiple studies found biocomputers much more capable than traditional AI-focused computers at identifying and predicting events, and as such, they have became more attractive in high performance applications ever since they were introduced. Furthermore, biocomputing has become significantly much cheaper and more compact since its early days. Today, even small tech startups are using biocomputing technology for management and manufacturing tasks. Biocomputing has since replaced most traditional AI computers, and the effects of biocomputing development have led to the thousand-fold increase in market share from 2070 to 2120.
+
+- - -
+
+# History of AFOS
+
+AFOS (Angelframe Operating System, originally stylized as AfOS) is HAMEKA's framework for artificial intelligence (AI). It was released in 2058 with the goal of improving the behavior of drones in competitive combat. This development era meant that AFOS was designed for both semiconductor-based and biological computers - a unique feature, that at least in the beginning, led to its adoption not just by billion-dollar arms conglomerates seeking the potential brought about by biocomputing, but by smaller businesses competing in regional levels of combat sports as well. However, AFOS would never dominate the defense AI market outside of these formative years, as AFOS only ran on HAMEKA AI computers, and HAMEKA only sold their most powerful AI hardware and software to corporations that had formed the closest relationships.
+
+## First Generation (2058-2067)
+
+Applications of AFOS 1 were limited to simpler autonomous vehicles like drones and mobile artillery. It can be operated remotely, or in a fully autonomous fashion.
+
+## Second Generation
+
