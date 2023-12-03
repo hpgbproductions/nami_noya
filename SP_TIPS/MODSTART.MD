@@ -22,3 +22,7 @@
   - Check scripting backend is Mono and .NET API compatibility level is 4.x.
 - **Stuck on loading screen**
   - Check log for SerializationException. This type of exception can happen when the list of public or serialized private fields and properties is changed without saving the GameObjects.
+- **EasyRoads3D roads don't appear**
+  - Ensure road assets are stored in the project folder after entering Build Mode. (Road Network component > Update Terrain (horizontal bar menu) > Store Mesh Assets)
+- **EasyRoads3D roads cause cars to get stuck**
+  - Do not assign a Physic Material to the roads.
