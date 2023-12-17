@@ -1,9 +1,10 @@
-Modified from:
-
-- `NET:HAMEKA\LEARN\BIOTECH\BIOCOMPUTING.NT` (retrieved March 8, 2122)
-- `NET:HAMEKA\LEARN\BIOTECH\DOLL.NT` (retrieved March 8, 2122)
-
 # Biocomputing
+
+Sources:
+
+- `NET:HAMEKA\ABOUT\BIOTECH\BIOCOMPUTING.NT` (retrieved March 8, 2122)
+- `NET:HAMEKA\ABOUT\BIOTECH\DOLL.NT` (retrieved March 8, 2122)
+- `NET:LEARNNEWTECH\ARTICLES\WHAT-IS-BIOCOMPUTING.NT` (retrieved March 8, 2122)
 
 ## What is Biocomputing?
 
@@ -22,6 +23,12 @@ As AI technology became more widely accepted in the following decades, biocomput
 - - -
 
 # History of AFOS
+
+Sources:
+
+- `NET:HAMEKA\ABOUT\ANGELFRAME.NT` (retrieved March 8, 2122)
+- `NET:HAMEKA\ABOUT\BIOTECH\AUGMENT.NT` (retrieved March 8, 2122)
+- `NET:NEURO-JOURNAL\PUB\2115-12.PUB` (retrieved March 8, 2122)
 
 AFOS (Angelframe Operating System, originally stylized as AfOS) is HAMEKA's framework for artificial intelligence (AI). It was released in 2058 with the goal of improving the behavior of drones in competitive combat. This development era meant that AFOS was designed for both semiconductor-based and biological computers - a unique feature, that at least in the beginning, led to its adoption not just by billion-dollar arms conglomerates seeking the potential brought about by biocomputing, but by smaller businesses competing in regional levels of combat sports as well. However, AFOS would never dominate the defense AI market outside of these formative years, as AFOS only ran on HAMEKA AI computers, and HAMEKA only sold their most powerful AI hardware and software to corporations that had formed the closest relationships with them.
 
@@ -46,7 +53,7 @@ Notable machines using AFOS 2:
 
 AFOS 3 was released in 2072, and brought various improvements to computational abilities. This addressed the limitations of AFOS 2, and the close-range combat capabilities of droids and fighter planes were finally able to surpass that of humans. Humans would be able to catch up in the 80s, when mental and physical augments became commonplace in the combat sports scene. AFOS 3 was introduced as part of HAMEKA's new ecosystem of defense-grade biotechnology, including autoregenerating artificial skin and muscle-based actuators. However, the third-generation biocomputing system could still operate mechanical machines like its predecessors.
 
-With intelligence levels of AFOS 3 reaching levels high enough for human work, the "C" (civil) variant of AFOS 3 was soon developed. AFOS 3C was developed from a standard edition of AFOS 3 for military droids. WIth an understanding of social expectations and environments, AFOS 3C systems could be used in populated areas safely for security and construction work. AFOS 3C was provided in varying levels of expected autonomy. One could choose fully intelligent models capable of fully autonomous operation, to models with zero autonomy and were remotely controlled by humans. Different behavioral presets were also available - it was ideal to have a droid that could carry out orders from a human operator, and nothing more.
+With intelligence levels of AFOS 3 reaching levels high enough for human work, the "C" (civil) variant of AFOS 3 was soon developed. AFOS 3C was developed from a standard edition of AFOS 3 for military droids. WIth an understanding of social expectations and environments, AFOS 3C systems could be used in populated areas safely for security and construction work. AFOS 3C was provided in varying levels of expected autonomy. One could choose fully intelligent models capable of fully autonomous operation, to models with zero autonomy and were remotely controlled by humans. Different behavioral presets were also available, but it was most often ideal to have a droid that could carry out orders from a human operator, and nothing more.
 
 Notable machines using AFOS 3:
 
@@ -54,8 +61,12 @@ Notable machines using AFOS 3:
 - AQF-24
 - AZ-series mass-produced, half-articulating drones
 
-The upgrade from AFOS 2M to 3M saw a significant increase in computational robustness when handling emergency and edge-case scenarios. The virtual co-pilot market would receive a small win in 2084, when single pilot airline operation became legal for small regional airplanes, as long as they did not fly over densely populated areas.
+The upgrade from AFOS 2M to 3M saw a significant increase in computational robustness when handling emergency and edge-case scenarios. The virtual co-pilot market would receive a small victory in 2084, when single pilot airline operation became legal for small regional airplanes, as long as they did not fly over densely populated areas.
 
 ## The Future
 
-By the early 90s, the pure intelligence potential of AFOS 3 and droid-sized biocomputers had stagnated, and HAMEKA started to focus on the growing human augmentation and conversion market. A consortium was formed among several bioengineering development companies, including HAMEKA, to develop a common standard for human augmentation and natural-to-artificial conversions. Before this standard, each company had a proprietary ecosystem of bioengineered parts, each with varying levels of compatibility with the natural human body. Each company also had a unique biocomputing framework that was fundamentally incompatible with brain conversion therapy. The resulting standard was simply known as Neurological Engineering Standard 1000, but gained the unofficial nickname *22th Century Human*, referencing the 2051 book of the same name. With this standard, consumer augmentations (usually removable) were introduced to the market and eliminated the need for mobile computing devices completely.
+By the early 90s, the pure intelligence potential of AFOS 3 and droid-sized biocomputers had stagnated, and HAMEKA started to focus on the growing human augmentation and conversion market. A consortium was formed among several bioengineering development companies, including HAMEKA, to develop a common standard for human augmentation and natural-to-artificial conversions. Before this standard, each company had a proprietary ecosystem of bioengineered parts, each with varying levels of compatibility with the natural human body. Each company also had a unique biocomputing framework that was fundamentally incompatible with brain conversion therapy. These problems were solved with the new standard, known as Neurological Engineering Standard 1000, or unofficially, *22th Century Human*, referencing the 2051 book of the same name.
+
+The most visible result of the Neurological Engineering Standards in everyday life is the introduction of personal data access augmentation. This type of augmentation comes in the form of two devices - a small wearable or permanently implanted computing device, and a brain-computer interface permanently wired into the brain. Such systems offer the ability to conduct tasks that were traditionally done with mobile computing devices. Users could know the time and weather, navigate highly 3D environments, perform mental calculations, and communicate by text over cellular networks. High-end devices could handle more advanced tasks like search engine queries, thought communication, and record sensory data. Despite this, data access augmentation never replaced mobile computing devices. The "air-gapped" interface between traditional devices and the brain prevented neurological hazards caused by the overloading of mental functions, or incorrectly formatted information. In addition, contemporary culture generally sought for the pure condition and ownership of the human body and mind, viewing excessive augmentation as distasteful and dangerous. Therefore, the typical consumer goes for basic augmentation or none at all, and mental augmentation failed to reach the levels idealized by their manufacturers.
+
+However, it is not just the mass market that should be considered. Mental augmentation has improved the abilities of workers in many fields. Most high-performance fields, like security, trading and design, have seen the adoption of neurological interfaces. In fact, speed and accuracy are critical for the ability to work competitively, or even adequately, in these markets. The competitive nature of the mentally augmented is seen most in the field of combat sports and other new age motorsports, where mental demands are quickly approaching the limitations of the natural human mind. While it may be debatable whether competitions between people with augments, often of differing eras and extents, can still be called sports, it is a fact that these battles remain popular with the public. (It should be noted that this does not apply to sports based completely around mental prowess.)
