@@ -8,6 +8,10 @@ The "Rank" number in the aircraft descriptions places each machine in an era.
 
 Start: N/A
 
+### Overview
+
+The timeline diverges from our own in the early 2000s, and technology in this era is widely available as of our world in 2010.
+
 ### Politics
 
 The traditional world. A worsening climate and political scene lead to a massive war. For the first time, corporations are targeted. Few players of the old world survive the conflict.
