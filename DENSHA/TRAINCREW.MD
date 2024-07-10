@@ -9,12 +9,12 @@
 
 ### Braking Start (3000 Series)
 
-|         | 300 kPa |
-|      ---|---   |
-| 100 km/h| 500 m|
-|  80 km/h| 350 m|
-|  60 km/h| 250 m|
-|  40 km/h| 150 m|
+|         | 300 kPa | 250 kPa |
+|      ---|---   |--- |
+| 100 km/h| 500 m| |
+|  80 km/h| 350 m| |
+|  60 km/h| 250 m| |
+|  40 km/h|      | 150 m |
 
 ### Passing (General)
 
