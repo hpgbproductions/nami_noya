@@ -18,6 +18,7 @@
 
 ### Passing (General)
 
+| | | |
 |--- |--- |--- |
-| 60 km/h | 200 m | -- |
+| 60 km/h | 200 m |  |
 | 40 km/h | 100 m | Reduce brakes |
