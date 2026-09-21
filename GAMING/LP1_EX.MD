@@ -33,7 +33,7 @@ It's basically impossible to fail in this level. Take the chance to warm up and 
 
 ## Mission 1
 
-### Snowy Area
+### Snow Area
 
 TAKE THE SHOTGUN!! It is very good. And keep your grenade reserves high. The rocket launcher might be good too, but I didn't use it.
 
@@ -55,11 +55,17 @@ When you use the shotgun on the boss, it will drop T-ENG. It's just enough to st
 
 ### Discussion
 
-Completed in about 50 minutes (excluding initial attempt many years ago). The exploration phase is easy. This boss is fair, I don't feel like I lose due to things completely out of my control. There is still a chance of being ganked, but the attempts are fast and fun.
+Completed in about 50 minutes (excluding initial attempt many years ago). The exploration phase is easy. This boss is fair, I don't feel like I lose due to things completely out of my control. There is still a chance of being ganked, or having unfortunate positioning where the spin attack cannot be cancelled or avoided, but the attempts are fast and fun.
 
 ## Mission 2
 
-...
+### City
+
+### Bridge and Tunnel
+
+### Pirate Base
+
+### Boss
 
 ### Discussion
 
@@ -67,11 +73,17 @@ Completed in about 4 hours and 20 minutes. The exploration phase requires tactic
 
 ## Mission 3
 
-...
+### Snow Fields
+
+Hug the right side of the map. This strategy is also viable in the usual difficulties, but unlike those, the field itself is no longer beneficial as there are no data posts.
+
+### Boss
+
+Not different from the standard difficulties. You get two VSes to play with. (Devs really should just give one.)
 
 ### Discussion
 
-Completed in about 15 minutes. Very easy.
+Completed in about 15 minutes. Second try on the boss. Very easy.
 
 ## Mission 4
 
