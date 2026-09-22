@@ -126,7 +126,7 @@ Snipe the pilot out of the enemy VS using the machine gun, and use it to defeat 
 
 Take the GTB-22 up the platforming section. Pick up some gatling gun ammo and the rocket launcher close to the top.
 
-There is a buried GTB-22 with a missile launcher and gatling gun before entering the arena. DON'T switch GTB-22s, it will be repaired when you retry, and you can pick up the buried one during the boss fight.
+There is a buried GTB-22 with a missile launcher and gatling gun before entering the arena. DON'T switch GTB-22s, the one you are riding will be repaired when you retry, and you can pick up the buried one during the boss fight.
 
 ### Boss
 
@@ -148,20 +148,48 @@ Completed in about 2 hours and 40 minutes. The boss is very challenging. Attacks
 
 ### Ruins
 
+There are a lot more Akrid, so clearing them out isn't very feasible. Watch for rocks. If you fall to the bottom, just reset (lol)
+
 ### Cavern
+
+Take the VSes. Not notably different from the standard difficulties. You can bring a VS into the boss arena. You should bring the VS shotgun.
 
 ### Boss
 
+Feels unchanged from standard difficulties, except that the arms grow back very quickly. There are no goons. There is a GTF-11 and a GTB-22 in the arena for you to use, making a total of three VSes if you brought one.
+
+The boss has 3 types of attacks. There are close-medium range arm attacks, medium-long range rockfall attacks where the boss slaps the sides of the arena, and an ice-blowing attack which I don't know much about (it doesn't happen much). One of the arm attacks is a spin, it's also uncommon and I'm not sure how it's telegraphed.
+
+The VS shotgun is best. Rocket launchers are disappointing since they can't one-shot the big arms.
+
+T-ENG drops when dealing damage are abundant. But you still need to look out for them.
+
 ### Discussion
 
-Completed in about 30 minutes (definitely under-reported due to restarting from the pause menu). Climbing section is a slight challenge but the rest is quite easy.
+Completed in about 30 minutes (definitely under-reported due to restarting from the pause menu). Climbing section is a slight challenge but the rest is quite easy. A bit luck-based.
 
 ## Mission 6
 
 ### City
 
+This is the tough bit where most of your mission time will go. Play tactically but fast. Take note of the machine gun and rocket launcher locations. The plasma grenade is good for disabling the two GAN-34s later.
+
+On the first street, use machine gun and regular grenades to defeat the first GTF-13F. Then take the plasma grenades. There is a rocket launcher with 3 rockets near the second GTF-13F; use one rocket (and plasma grenades if needed) to defeat it. You can use the remaining rockets to destroy one GTN-A01 on the second street.
+
+As you pass under the overhead bridge with snipers, the two GAN-34s will spawn along with a few NEVEC soldiers. The exit is on the right side of the end of the second street, under the place the GAN-34s fly in from.
+
+### NEVEC Facility
+
+Ignore the enemies at the start of the NEVEC facility. They don't give enough T-ENG.
+
 ### Boss
+
+The boss seems unchanged from the standard difficulties, except for being faster. T-ENG is abundant as large amounts drop when a weak spot is destroyed.
+
+Gatling guns, shotguns, and rocket launchers are available. Rocket launchers are very powerful, especially in the third phase. The shotgun is only safe to use in the first phase.
+
+The attacks include front charging, backstepping, ice missiles, and a ground slam. The Green Eye only climbs onto the sides if you are camping there.
 
 ### Discussion
 
-Completed in about 1 hour and 30 minutes. Exploration phase is tough but the boss is easy.
+Completed in about 1 hour and 30 minutes. Exploration phase is tough. It would be nice if there was a rifle, but that would make the human part too easy. Boss should be easy if you got through the standard difficulties.
