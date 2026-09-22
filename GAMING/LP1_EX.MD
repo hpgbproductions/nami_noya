@@ -172,7 +172,7 @@ Completed in about 30 minutes (definitely under-reported due to restarting from 
 
 ### City
 
-This is the tough bit where most of your mission time will go. Play tactically but fast. Take note of the machine gun and rocket launcher locations. The plasma grenade is good for disabling the two GAN-34s later.
+This is the tough bit where most of your mission time will go. Play tactically but fast. Take note of the machine gun and rocket launcher locations. Alternatively, try the plasma gun for sniping, as its T-ENG cost is small relative to that of healing and passive consumption. The plasma grenade is good for disabling the two GAN-34s later.
 
 On the first street, use machine gun and regular grenades to defeat the first GTF-13F. Then take the plasma grenades. There is a rocket launcher with 3 rockets near the second GTF-13F; use one rocket (and plasma grenades if needed) to defeat it. You can use the remaining rockets to destroy one GTN-A01 on the second street.
 
@@ -192,4 +192,4 @@ The attacks include front charging, backstepping, ice missiles, and a ground sla
 
 ### Discussion
 
-Completed in about 1 hour and 30 minutes. Exploration phase is tough. It would be nice if there was a rifle, but that would make the human part too easy. Boss should be easy if you got through the standard difficulties.
+Completed in about 1 hour and 30 minutes. Exploration phase is tough and needs tactical combat. Boss should be easy if you got through the standard difficulties.
