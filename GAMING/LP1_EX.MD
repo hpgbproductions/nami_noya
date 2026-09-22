@@ -8,11 +8,14 @@ This is a game that has been with me for my whole life. I started it before prim
 
 Most of this text assumes that you have already beaten the Easy, Normal, or Hard difficulty. However, a few tips still apply to all difficulties.
 
+Clear time may be under-reported as I sometimes restart from the pause menu if I haven't reached a checkpoint yet.
+
 ## General Tips
 
 - Prior knowledge of the maps and bosses is very useful (obviously).
   - You need all the T-ENG you can get.
-  - There are no data points (as of my current amount of progress).
+  - There are no data points.
+- When fighting, be quick, but don't aggro too many enemies at once.
 - Certain parts of missions are different on Extreme difficulty. Generally, there are:
   - More enemy spawns (including goons with the bosses).
   - Fewer unoccupied VSes.
@@ -61,15 +64,39 @@ Completed in about 50 minutes (excluding initial attempt many years ago). The ex
 
 ### City
 
+For the Akrid part, it's up to you whether to fight or run past.
+
+For the Snow Pirate part, you might try to take control of a GTF-13M for a bit.
+
 ### Bridge and Tunnel
 
-### Pirate Base
+Very tough. Sniping is useful. (Did you know that the rifle has a scope?) Even if you manage to pilot snipe the GTF-13M on the bridge, don't try using it on the ramps, it's finicky.
+
+The VS at the end of the bridge can be backed into the right-hand side corner using regular hand grenades. Alternatively, it might be easily skippable.
+
+### Pirate Base Entrance
+
+Use the rifle to snipe the pilots in the two GTF-11s, and quickly rush to commandeer one of them. It makes short work of the turrets and other VS further inside. Get the T-ENG and enter the base.
+
+I think it is impossible to enter with the VS. This is unless I have skill issue.
 
 ### Boss
 
+The main difficulty of the boss is not having a VS to fight it with. This simple change forces almost perfect gameplay.
+
+Take the VS shotgun right in front of you and defeat the two GTF-11s. Unfortunately, I think it is impossible to steal them, I tried using the rifle and machine gun but the pilots refused to jump out. While attacking the goons, make your way to the back left or back right corner, with two VS rocket launchers or a VS shotgun respectively. With these additional supplies, you must defeat the goons and the boss GTB-22.
+
+The boss can deploy a smokescreen when it jumps. Pay attention and always look for it! Jumping and landing both have a very small AoE. In addition, the boss has two main attacks:
+
+Firstly, the missile launcher. The boss will jump away, usually onto the tower in the middle or the buildings on the sides, but note that it can also start the attack while on the ground. When in position, an arm- or hook-shaped part of the missile launcher will retract, and the boss will launch 1-4 missiles. This attack is an easy opening for the rocket launcher. It's basically only dangerous if you lose track of the boss.
+
+The other attack is much more dangerous. It will do ground pounds with a large AoE. This is spammable, and if your positioning is unfortunate, you will die. You need to keep some distance to be safe, unfortunately this makes the VS shotgun less effective. You might try to camp the center tower or the garage shutters at the far end to avoid this attack, but you will have to contend with the people in the center.
+
+There is a secret third attack, where it jumps around the other side of the arena and wastes your T-ENG.
+
 ### Discussion
 
-Completed in about 4 hours and 20 minutes. The exploration phase requires tactical play. The boss is terrible. It is very luck-based as there is a chance of a lethal and unavoidable attack (repeated ground pounds), and the boss can stall the battle by jumping around the other side of the arena. Boss attempts are quite long.
+Completed in about 4 hours and 20 minutes. The exploration phase requires tactical play. The boss is terrible. It is very luck-based as there is a chance of a lethal and unavoidable attack. Boss attempts are quite long.
 
 ## Mission 3
 
@@ -105,7 +132,7 @@ There is a buried GTB-22 with a missile launcher and gatling gun before entering
 
 I entered with the lower GTB-22 and less than 1000 T-ENG (resets to 1000). At the start, the boss will fly around the central pillar a little without attacking. Use this time to change your loadout and get more T-ENG.
 
-Hitting the glowing abdomen with rockets or missiles will cause the boss to drop T-ENG; you need it to retain GTB-22 privileges. Gatling guns don't drop T-ENG, but can shoot down the boss' missiles. Laser rifles seem to do sometimes, but they consume T-ENG, so they're not viable.
+Hitting the glowing abdomen with rockets or missiles will cause the boss to drop T-ENG; you need it to retain GTB-22 privileges. Gatling guns don't drop T-ENG, but can shoot down the boss' missiles. Laser rifles seem to do sometimes, but they consume T-ENG and don't do much damage, so they're not viable.
 
 I tried many loadouts for the lower GTB-22, and the winning combination was dual rocket launchers (1 pickup from the platforming area + 2 pickups on the arena pillar). Shoot 2 rockets with a short delay! If you do it right, you do more damage than 2 rockets at the same time. (Maybe when two rockets are fired simultaneously, the first to hit will detonate the other, meaning you get 1 direct hit and 1 AoE only).
 
@@ -115,4 +142,26 @@ In my winning run, the boss destroyed my first GTB-22 set up with dual rocket la
 
 ### Discussion
 
-Completed in about 2 hours and 40 minutes. The boss is very challenging. Attacks are finicky to avoid. I feel like it's very luck-based. It truly recreated the experience of fighting a mosquito.
+Completed in about 2 hours and 40 minutes. The boss is very challenging. Attacks are finicky to avoid. I feel like it's very luck-based. Just like fighting a mosquito.
+
+## Mission 5
+
+### Ruins
+
+### Cavern
+
+### Boss
+
+### Discussion
+
+Completed in about 30 minutes (definitely under-reported due to restarting from the pause menu). Climbing section is a slight challenge but the rest is quite easy.
+
+## Mission 6
+
+### City
+
+### Boss
+
+### Discussion
+
+Completed in about 1 hour and 30 minutes. Exploration phase is tough but the boss is easy.
