@@ -218,6 +218,8 @@ Entered with about 5000 T-ENG. At the starting area, only go down the stairs onc
 
 Entered with 4500 T-ENG after destroying the 3 containers before the lift; brute-forced with VS shotgun and standard grenades.
 
+Also try the plasma gun, it can one-shot the drones here.
+
 You can use the grappling hook to escape from the drill charging attack. It's not always possible but very cool when you get it.
 
 ### Discussion
