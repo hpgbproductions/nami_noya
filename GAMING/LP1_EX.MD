@@ -193,3 +193,33 @@ The attacks include front charging, backstepping, ice missiles, and a ground sla
 ### Discussion
 
 Completed in about 1 hour and 30 minutes. Exploration phase is tough and needs tactical combat. Boss should be easy if you got through the standard difficulties.
+
+## Mission 7
+
+### Snow Area 1
+
+Pilot the GAN-37 near the starting point. First, use the gatling gun to destroy the GTF-13M with missile launcher. Then tackle the other VSes in the open area. Advance gradually to the exit.
+
+Alternatively, you can try to steal a GTF-13M and speed to the exit.
+
+Note that your T-ENG and VS are NOT retained.
+
+### Snow Area 2
+
+Wayne forgot his T-ENG and VS in the trailer, so this will be hard.
+
+Trace around the left side, where you will find a VS shotgun. Use it or your handheld rocket launcher to defeat two GAN-34s, each with only one gatling gun. Near the place where you fought them, you can find a buried PTX-140 with dual cannons. Advance gradually to avoid taking too much Akrid aggro. Along the way, there is an unoccupied GAN-37 you can switch to if your PTX-140 is destroyed.
+
+### NEVEC Facility
+
+Entered with about 5000 T-ENG. At the starting area, only go down the stairs once, such that you only have close-range encounters with 3 NEVEC soldiers. Hope that they drop a plasma gun; if they do, you can easily destroy the GTN-A01s on the other side of the map. Go to the area to the right, staying at that height. You will have to fight some snipers and one group of drones. The laser rifle GAN-34 shouldn't be a problem.
+
+### Boss
+
+Entered with 4500 T-ENG after destroying the 3 containers before the lift; brute-forced with VS shotgun and standard grenades.
+
+You can use the grappling hook to escape from the drill charging attack. It's not always possible but very cool when you get it.
+
+### Discussion
+
+Completed in about 5 hours and 30 minutes. I had to learn all 4 parts almost from scratch. Boss is very difficult. I think it was really not designed with fighting on foot in mind, making it completely luck-based. Basically, it's a repeat of Mission 2. I guess the lethal difficulty counters the relative ease of the previous 2 missions.
